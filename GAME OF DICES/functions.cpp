@@ -242,22 +242,7 @@ void jeu() {
 			Joueur* j;
 
 			int nb_joueurs = nbJoueurs();
-			if (nb_joueurs == 2) {
-				Joueur j[2];
-			}
-			else if (nb_joueurs == 3) {
-				Joueur j[3];
-			}
-			else if (nb_joueurs == 4) {
-				Joueur j[4];
-			}
-			else if (nb_joueurs == 5) {
-				Joueur j[5];
-			}
-			else if (nb_joueurs == 6) {
-				Joueur j[6];
-			}
-			j = (Joueur*)malloc(6 * sizeof(Joueur));
+			j = (Joueur*)malloc(nb_joueurs * sizeof(Joueur));
 			saisieNomsJoueurs(j, nb_joueurs);
 
 
@@ -304,13 +289,16 @@ void jeu() {
 						replaySame = rejouer();
 					}
 				}
+				
 
+
+				free(j);
 				if (replaySame == 2)
 				{
 					quit = 1;
 					break;
 				}
-
+			
 
 			} while (replaySame == 2);
 		}

@@ -1,7 +1,5 @@
 ﻿  functions.cpp
-c:\users\formation\source\repos\game of dices\game of dices\functions.cpp(246): warning C4101: 'j' : variable locale non référencée
-c:\users\formation\source\repos\game of dices\game of dices\functions.cpp(249): warning C4101: 'j' : variable locale non référencée
-c:\users\formation\source\repos\game of dices\game of dices\functions.cpp(252): warning C4101: 'j' : variable locale non référencée
-c:\users\formation\source\repos\game of dices\game of dices\functions.cpp(255): warning C4101: 'j' : variable locale non référencée
-c:\users\formation\source\repos\game of dices\game of dices\functions.cpp(258): warning C4101: 'j' : variable locale non référencée
-  GAME OF DICES.vcxproj -> C:\Users\Formation\source\repos\GAME OF DICES\Debug\GAME OF DICES.exe
+  Source.cpp
+c:\users\formation\desktop\c\projets\game of dices\game of dices\source.cpp(3): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+  Génération de code en cours...
+  GAME OF DICES.vcxproj -> C:\Users\Formation\Desktop\C\Projets\GAME OF DICES\Debug\GAME OF DICES.exe
