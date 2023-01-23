@@ -9,8 +9,9 @@ void annonce() {
 	printf("#################################\n\n");
 	printf("Cree par : Lepretre Alexandre et Hurtel Joris\n\n");
 }
-int menu(int choix)
+int menu()
 {
+	int choix;
 	printf("------------- MENU ------------- \n");
 	printf("1 - Jouer\n");
 	printf("2 - Regles\n");
@@ -231,8 +232,7 @@ void jeu() {
 	int quit = 0;
 	while (quit == 0)
 	{
-		int tempchoixmenu = 0;
-		int choixmenu = menu(tempchoixmenu);
+		int choixmenu = menu();
 
 
 		if (choixmenu == 1)
